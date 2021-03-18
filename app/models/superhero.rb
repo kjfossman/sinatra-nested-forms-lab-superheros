@@ -4,8 +4,8 @@ class Superhero
 
     def initialize(params = {})
         @name = params["name"]
-        @name = params["power"]
-        @name = params["bio"]
+        @power = params["power"]
+        @bio = params["bio"]
         @@all << self
     end
 
